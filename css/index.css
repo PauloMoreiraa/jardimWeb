@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@font-face{
+  font-family: 'SamdanEvil';
+  src: url('../fonts/SamdanEvil.ttf');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+  font-family: 'Oswald', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 4px;         
+  }
+  
+body::-webkit-scrollbar-track {
+    background: #658f69;        
+  }
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #a5a5a5;  
+  }
